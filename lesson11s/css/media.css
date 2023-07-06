@@ -1,0 +1,102 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 800px) {
+    .myform {
+        flex-direction: column;
+    }
+    .inputsdiv {
+        max-width: 100%;
+    }
+    .textareadiv {
+        margin-bottom: 20px;
+    }
+    input[type="text"],
+    input[type="email"] {
+        margin-bottom: 20px;
+    }
+    .infobox,
+    .infobox2 {
+        text-align: center;
+    }
+    .infobox h3,
+    .infobox2 h3 {
+        width: 100%;
+        font-size: 36px;
+    }
+
+    .imgwrapper img {
+        width: 70%;
+    }
+    .mail {
+   padding: 80px;
+    }
+    .konvimg {
+        padding-top: 40px;
+        padding-left: 20px;
+    }
+    .teleimg {
+        padding-bottom: 5px;
+    }
+    .lokimg {
+        
+    }
+     infobox2 h3 {
+        text-align: center;
+     }
+}
+@media (max-width: 950px) {
+    .mail {
+        padding: 80px;
+         }
+         .konvimg {
+             padding-top: 40px;
+             padding-left: 20px;
+         }
+         .teleimg {
+             padding-bottom: 5px;
+         }
+         .lokimg {
+             
+         }
+          infobox2 h3 {
+             text-align: center;
+          }
+}
+@media (max-width: 1050px) {
+    .mail {
+        padding: 80px;
+         }
+         .konvimg {
+             padding-top: 40px;
+             padding-left: 20px;
+         }
+         .teleimg {
+             padding-bottom: 5px;
+         }
+         .lokimg {
+             
+         }
+          infobox2 h3 {
+             text-align: center;
+          }
+}
+@media (max-width: 300px) {
+    .list {
+        flex-wrap: wrap;
+    }
+    footer {
+        width: 1300px;
+    }
+}
+@media (max-width: 600px) {
+    .list {
+        flex-wrap: wrap;
+    }
+    footer {
+        width: 1300px;
+    }
+}
